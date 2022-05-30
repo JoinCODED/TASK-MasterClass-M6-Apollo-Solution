@@ -1,17 +1,20 @@
 import { Card, CardActions, CardContent, Typography } from "@mui/material";
-
+import DeleteIcon from "@mui/icons-material/Delete";
 export default function RecipeCard() {
   return (
     <Card sx={{ width: "20%", m: 6 }}>
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          Add recipe name
+          RECIPE NAME
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Add recipe steps
+          RECIPE STEPS
         </Typography>
       </CardContent>
-      <CardActions>ADD INGREDIENTS</CardActions>
+      <CardActions>
+        <DeleteIcon />
+      </CardActions>
+      <CardActions>LIST OF INGREDIENTS</CardActions>
     </Card>
   );
 }

@@ -1,5 +1,3 @@
-import logo from "./logo.svg";
-import "./App.css";
 import CategoryList from "./components/RecipeList";
 import NavBar from "./components/NavBar";
 
